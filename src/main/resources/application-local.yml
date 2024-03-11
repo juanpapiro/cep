@@ -1,0 +1,4 @@
+server:
+  port: 8003
+
+URL_FIND_ADDRESS_BY_CEP: https://viacep.com.br/ws/{cep}/json
