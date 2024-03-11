@@ -3,11 +3,11 @@ package com.api.cep.controller.handler;
 import com.api.cep.exception.CepNotFoundException;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @Log4j2
-@RestControllerAdvice
+@ControllerAdvice
 public class ErrorHandlerController {
 
 
